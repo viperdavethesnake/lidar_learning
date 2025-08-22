@@ -483,6 +483,27 @@ This project is designed for learning. Key concepts covered:
 4. **AI/ML features**: Detecting useful patterns for model training
 5. **Batch processing**: Optimizing large-scale LiDAR workflows
 
+## 🚀 Future Development: Phase 2
+
+**📋 Phase 2 Extension**: GPS & POSPac Metadata Extraction
+
+Our current system focuses on LAS/LAZ point cloud metadata. Phase 2 will extend this to process **GPS trajectory data** and **POSPac processing files** for comprehensive survey-level metadata.
+
+**New file types to be supported:**
+- **`.gps`** - GPS trajectory data from survey
+- **`.pospac`** - POSPac GPS/IMU processing results  
+- **`.ini`** - Processing configuration files
+- **`.json`** - JSON configuration/data files
+- **`.log`** - Processing log files
+
+**Enhanced capabilities:**
+- Survey coverage analysis and flight statistics
+- GPS quality metrics and accuracy assessment
+- Processing chain metadata and quality control
+- Survey-level aggregated metadata for engineering workflows
+
+**📖 See `README_PHASE2.md` for detailed Phase 2 planning and implementation roadmap.**
+
 ## ⚡ Performance
 
 - **Processing speed**: ~100K points/second metadata extraction
