@@ -1,0 +1,313 @@
+- file: USGS_LPC_CA_LosAngeles_2016_L4_6374_1628c_LAS_2018.laz
+  file_path: data/USGS_LPC_CA_LosAngeles_2016_L4_6374_1628c_LAS_2018.laz
+  file_size_bytes: 4168293
+  point_format_id: 6
+  version: '1.4'
+  point_count: 871984
+  system_identifier: TUAV OPTECH GALAXY
+  generating_software: GeoCue LAS Updater
+  creation_date: '2018-01-09'
+  bbox:
+    minx: 6374080.0
+    miny: 1630800.0
+    minz: -808.39
+    maxx: 6376719.99
+    maxy: 1633439.99
+    maxz: 821.32
+    width: 2639.9900000002235
+    height: 2639.9899999999907
+    area: 6969547.200100565
+  point_density_per_unit2: 0.1251134363488374
+  coordinate_system:
+    scales:
+      x: 0.01
+      y: 0.01
+      z: 0.01
+    offsets:
+      x: -0.0
+      y: -0.0
+      z: -0.0
+  classification_analysis:
+    unique_classes: 4
+    breakdown:
+      1: 150970
+      7: 45
+      9: 720255
+      18: 714
+  intensity_analysis:
+    min: 64
+    max: 22896
+    mean: 1041.593368685664
+    std: 708.4750153440866
+  return_analysis:
+    max_return: 2
+    breakdown:
+      1: 871668
+      2: 316
+  ml_features:
+    has_ground_points: false
+    has_buildings: false
+    has_vegetation: false
+    has_water: true
+    has_bridges: false
+    point_density_category: low
+    classification_diversity: 4
+    return_complexity: 2
+  processing_estimates:
+    estimated_processing_time_seconds: 8
+    memory_requirements_mb: 83
+    suitable_for_batch: true
+    priority_score: 0.3
+  crs: null
+- file: USGS_LPC_CA_LosAngeles_2016_L4_6376_1622b_LAS_2018.laz
+  file_path: data/USGS_LPC_CA_LosAngeles_2016_L4_6376_1622b_LAS_2018.laz
+  file_size_bytes: 4626611
+  point_format_id: 6
+  version: '1.4'
+  point_count: 1098803
+  system_identifier: TUAV OPTECH GALAXY
+  generating_software: GeoCue LAS Updater
+  creation_date: '2018-01-09'
+  bbox:
+    minx: 6376720.0
+    miny: 1625520.0
+    minz: -806.73
+    maxx: 6379359.99
+    maxy: 1628159.99
+    maxz: 795.1700000000001
+    width: 2639.9900000002235
+    height: 2639.9899999999907
+    area: 6969547.200100565
+  point_density_per_unit2: 0.15765773133499192
+  coordinate_system:
+    scales:
+      x: 0.01
+      y: 0.01
+      z: 0.01
+    offsets:
+      x: -0.0
+      y: -0.0
+      z: -0.0
+  classification_analysis:
+    unique_classes: 4
+    breakdown:
+      1: 173801
+      7: 69
+      9: 924901
+      18: 32
+  intensity_analysis:
+    min: 64
+    max: 44800
+    mean: 1406.461336563515
+    std: 3153.5031454431623
+  return_analysis:
+    max_return: 2
+    breakdown:
+      1: 1098771
+      2: 32
+  ml_features:
+    has_ground_points: false
+    has_buildings: false
+    has_vegetation: false
+    has_water: true
+    has_bridges: false
+    point_density_category: low
+    classification_diversity: 4
+    return_complexity: 2
+  processing_estimates:
+    estimated_processing_time_seconds: 10
+    memory_requirements_mb: 104
+    suitable_for_batch: true
+    priority_score: 0.3
+  crs: null
+- file: USGS_LPC_CA_LosAngeles_2016_L4_6376_1628b_LAS_2018.laz
+  file_path: data/USGS_LPC_CA_LosAngeles_2016_L4_6376_1628b_LAS_2018.laz
+  file_size_bytes: 9242154
+  point_format_id: 6
+  version: '1.4'
+  point_count: 1892601
+  system_identifier: TUAV OPTECH GALAXY
+  generating_software: GeoCue LAS Updater
+  creation_date: '2018-01-09'
+  bbox:
+    minx: 6376720.0
+    miny: 1630800.0
+    minz: -770.4200000000001
+    maxx: 6379359.99
+    maxy: 1633439.99
+    maxz: 921.23
+    width: 2639.9900000002235
+    height: 2639.9899999999907
+    area: 6969547.200100565
+  point_density_per_unit2: 0.27155293531446223
+  coordinate_system:
+    scales:
+      x: 0.01
+      y: 0.01
+      z: 0.01
+    offsets:
+      x: -0.0
+      y: -0.0
+      z: -0.0
+  classification_analysis:
+    unique_classes: 6
+    breakdown:
+      1: 1160213
+      2: 370376
+      7: 121
+      9: 359928
+      10: 1353
+      18: 610
+  intensity_analysis:
+    min: 64
+    max: 65520
+    mean: 1824.90382283429
+    std: 873.0664094299834
+  return_analysis:
+    max_return: 4
+    breakdown:
+      1: 1836774
+      2: 54488
+      3: 1326
+      4: 13
+  ml_features:
+    has_ground_points: true
+    has_buildings: false
+    has_vegetation: false
+    has_water: true
+    has_bridges: false
+    point_density_category: low
+    classification_diversity: 6
+    return_complexity: 4
+  processing_estimates:
+    estimated_processing_time_seconds: 18
+    memory_requirements_mb: 180
+    suitable_for_batch: true
+    priority_score: 0.4
+  crs: null
+- file: USGS_LPC_CA_LosAngeles_2016_L4_6382_1617a_LAS_2018.laz
+  file_path: data/USGS_LPC_CA_LosAngeles_2016_L4_6382_1617a_LAS_2018.laz
+  file_size_bytes: 3671665
+  point_format_id: 6
+  version: '1.4'
+  point_count: 739711
+  system_identifier: TUAV OPTECH GALAXY
+  generating_software: GeoCue LAS Updater
+  creation_date: '2018-01-09'
+  bbox:
+    minx: 6382000.0
+    miny: 1617600.0
+    minz: -830.0500000000001
+    maxx: 6384639.99
+    maxy: 1620239.99
+    maxz: 806.3000000000001
+    width: 2639.9900000002235
+    height: 2639.9899999999907
+    area: 6969547.200100565
+  point_density_per_unit2: 0.10613472852143487
+  coordinate_system:
+    scales:
+      x: 0.01
+      y: 0.01
+      z: 0.01
+    offsets:
+      x: -0.0
+      y: -0.0
+      z: -0.0
+  classification_analysis:
+    unique_classes: 4
+    breakdown:
+      1: 118638
+      7: 45
+      9: 620124
+      18: 904
+  intensity_analysis:
+    min: 64
+    max: 27344
+    mean: 1123.5328175463121
+    std: 800.5859740626531
+  return_analysis:
+    max_return: 2
+    breakdown:
+      1: 739271
+      2: 440
+  ml_features:
+    has_ground_points: false
+    has_buildings: false
+    has_vegetation: false
+    has_water: true
+    has_bridges: false
+    point_density_category: low
+    classification_diversity: 4
+    return_complexity: 2
+  processing_estimates:
+    estimated_processing_time_seconds: 7
+    memory_requirements_mb: 70
+    suitable_for_batch: true
+    priority_score: 0.3
+  crs: null
+- file: USGS_LPC_CA_LosAngeles_2016_L4_6382_1622a_LAS_2018.laz
+  file_path: data/USGS_LPC_CA_LosAngeles_2016_L4_6382_1622a_LAS_2018.laz
+  file_size_bytes: 6363309
+  point_format_id: 6
+  version: '1.4'
+  point_count: 1421624
+  system_identifier: TUAV OPTECH GALAXY
+  generating_software: GeoCue LAS Updater
+  creation_date: '2018-01-09'
+  bbox:
+    minx: 6382000.0
+    miny: 1622880.0
+    minz: -805.22
+    maxx: 6384639.99
+    maxy: 1625519.99
+    maxz: 1187.96
+    width: 2639.9900000002235
+    height: 2639.9899999999907
+    area: 6969547.200100565
+  point_density_per_unit2: 0.20397652231689986
+  coordinate_system:
+    scales:
+      x: 0.01
+      y: 0.01
+      z: 0.01
+    offsets:
+      x: -0.0
+      y: -0.0
+      z: -0.0
+  classification_analysis:
+    unique_classes: 6
+    breakdown:
+      1: 776304
+      2: 261670
+      7: 5010
+      9: 377299
+      10: 966
+      18: 375
+  intensity_analysis:
+    min: 64
+    max: 65520
+    mean: 1851.3959809344806
+    std: 1652.5323337295897
+  return_analysis:
+    max_return: 4
+    breakdown:
+      1: 1399993
+      2: 21251
+      3: 379
+      4: 1
+  ml_features:
+    has_ground_points: true
+    has_buildings: false
+    has_vegetation: false
+    has_water: true
+    has_bridges: false
+    point_density_category: low
+    classification_diversity: 6
+    return_complexity: 4
+  processing_estimates:
+    estimated_processing_time_seconds: 14
+    memory_requirements_mb: 135
+    suitable_for_batch: true
+    priority_score: 0.4
+  crs: null

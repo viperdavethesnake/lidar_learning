@@ -43,9 +43,11 @@ data/lidar_la/*.las
 data/*.laz
 data/*.las
 
-# Output files
-output/
-out/
+# Output files (exclude large data, but allow metadata)
+output/*.laz
+output/*.las
+out/*.laz
+out/*.las
 
 # OS generated files
 .DS_Store

@@ -1,0 +1,248 @@
+{
+  "extraction_info": {
+    "extracted_at": "2025-08-22T10:44:01.302934",
+    "extractor": "extract_metadata.py - complete mode",
+    "file_hash_sha256": "15f3f07cbeb357f259cf700c431c37c2fbeadc09d9ec39617f03302edf8ac97c"
+  },
+  "file_info": {
+    "file_name": "USGS_LPC_CA_LosAngeles_2016_L4_6382_1622a_LAS_2018.laz",
+    "file_path": "data/USGS_LPC_CA_LosAngeles_2016_L4_6382_1622a_LAS_2018.laz",
+    "file_size_bytes": 6363309
+  },
+  "header_complete": {
+    "major_version": 1,
+    "minor_version": 4,
+    "file_source_id": 0,
+    "uuid": "5b5bf517-e36a-4250-bd7b-2cb0a793808f",
+    "system_identifier": "TUAV OPTECH GALAXY",
+    "generating_software": "GeoCue LAS Updater",
+    "creation_date": "2018-01-09",
+    "point_count": 1421624,
+    "offset_to_point_data": 6934,
+    "number_of_evlrs": 0,
+    "start_of_waveform_data_packet_record": 0,
+    "are_points_compressed": true,
+    "number_of_points_by_return": [
+      1399993,
+      21251,
+      379,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "version_full": "1.4",
+    "global_encoding_value": 0,
+    "point_format": {
+      "id": 6,
+      "size": 30,
+      "dimensions": [
+        {
+          "name": "X",
+          "num_bytes": 4,
+          "dtype": "int32"
+        },
+        {
+          "name": "Y",
+          "num_bytes": 4,
+          "dtype": "int32"
+        },
+        {
+          "name": "Z",
+          "num_bytes": 4,
+          "dtype": "int32"
+        },
+        {
+          "name": "intensity",
+          "num_bytes": 2,
+          "dtype": "uint16"
+        },
+        {
+          "name": "return_number",
+          "num_bytes": 0,
+          "dtype": null
+        },
+        {
+          "name": "number_of_returns",
+          "num_bytes": 0,
+          "dtype": null
+        },
+        {
+          "name": "synthetic",
+          "num_bytes": 0,
+          "dtype": null
+        },
+        {
+          "name": "key_point",
+          "num_bytes": 0,
+          "dtype": null
+        },
+        {
+          "name": "withheld",
+          "num_bytes": 0,
+          "dtype": null
+        },
+        {
+          "name": "overlap",
+          "num_bytes": 0,
+          "dtype": null
+        },
+        {
+          "name": "scanner_channel",
+          "num_bytes": 0,
+          "dtype": null
+        },
+        {
+          "name": "scan_direction_flag",
+          "num_bytes": 0,
+          "dtype": null
+        },
+        {
+          "name": "edge_of_flight_line",
+          "num_bytes": 0,
+          "dtype": null
+        },
+        {
+          "name": "classification",
+          "num_bytes": 1,
+          "dtype": "uint8"
+        },
+        {
+          "name": "user_data",
+          "num_bytes": 1,
+          "dtype": "uint8"
+        },
+        {
+          "name": "scan_angle",
+          "num_bytes": 2,
+          "dtype": "int16"
+        },
+        {
+          "name": "point_source_id",
+          "num_bytes": 2,
+          "dtype": "uint16"
+        },
+        {
+          "name": "gps_time",
+          "num_bytes": 8,
+          "dtype": "float64"
+        }
+      ]
+    }
+  },
+  "vlrs_complete": [
+    {
+      "index": 0,
+      "type": "WktCoordinateSystemVlr",
+      "user_id": "LASF_Projection",
+      "record_id": 2112,
+      "description": "OGC WKT Coordinate System"
+    },
+    {
+      "index": 1,
+      "type": "VLR",
+      "user_id": "LASF_Spec",
+      "record_id": 0,
+      "description": "Classification Lookup"
+    }
+  ],
+  "point_data_complete": {
+    "total_points": 1421624,
+    "classification": {
+      "dtype": "uint8",
+      "min": 1,
+      "max": 18,
+      "unique_count": "many",
+      "breakdown": {
+        "1": 776304,
+        "2": 261670,
+        "7": 5010,
+        "9": 377299,
+        "10": 966,
+        "18": 375
+      }
+    },
+    "intensity": {
+      "dtype": "uint16",
+      "min": 64,
+      "max": 65520,
+      "unique_count": "many"
+    },
+    "return_number": "unavailable",
+    "number_of_returns": "unavailable",
+    "synthetic": "unavailable",
+    "key_point": "unavailable",
+    "withheld": "unavailable",
+    "overlap": "unavailable",
+    "scanner_channel": "unavailable",
+    "scan_direction_flag": "unavailable",
+    "edge_of_flight_line": "unavailable",
+    "user_data": {
+      "dtype": "uint8",
+      "min": 1,
+      "max": 1,
+      "unique_count": "many"
+    },
+    "scan_angle": {
+      "dtype": "int16",
+      "min": -3667,
+      "max": 3667,
+      "unique_count": "many"
+    },
+    "point_source_id": {
+      "dtype": "uint16",
+      "min": 19,
+      "max": 573,
+      "unique_count": "many"
+    },
+    "gps_time": {
+      "dtype": "float64",
+      "min": 130293476.36287785,
+      "max": 131305217.28886366,
+      "unique_count": "many"
+    }
+  },
+  "coordinate_system_complete": {
+    "scales": {
+      "x": 0.01,
+      "y": 0.01,
+      "z": 0.01
+    },
+    "offsets": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0
+    },
+    "mins": {
+      "x": 6382000.0,
+      "y": 1622880.0,
+      "z": -805.22
+    },
+    "maxs": {
+      "x": 6384639.99,
+      "y": 1625519.99,
+      "z": 1187.96
+    },
+    "x_min": 6382000.0,
+    "x_max": 6384639.99,
+    "x_scale": 0.01,
+    "x_offset": -0.0,
+    "y_min": 1622880.0,
+    "y_max": 1625519.99,
+    "y_scale": 0.01,
+    "y_offset": -0.0,
+    "z_min": -805.22,
+    "z_max": 1187.96,
+    "z_scale": 0.01,
+    "z_offset": -0.0,
+    "crs_wkt": null
+  }
+}

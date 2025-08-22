@@ -1,0 +1,74 @@
+{
+  "file": "USGS_LPC_CA_LosAngeles_2016_L4_6374_1628c_LAS_2018.laz",
+  "file_path": "data/USGS_LPC_CA_LosAngeles_2016_L4_6374_1628c_LAS_2018.laz",
+  "file_size_bytes": 4168293,
+  "point_format_id": 6,
+  "version": "1.4",
+  "point_count": 871984,
+  "system_identifier": "TUAV OPTECH GALAXY",
+  "generating_software": "GeoCue LAS Updater",
+  "creation_date": "2018-01-09",
+  "bbox": {
+    "minx": 6374080.0,
+    "miny": 1630800.0,
+    "minz": -808.39,
+    "maxx": 6376719.99,
+    "maxy": 1633439.99,
+    "maxz": 821.32,
+    "width": 2639.9900000002235,
+    "height": 2639.9899999999907,
+    "area": 6969547.200100565
+  },
+  "point_density_per_unit2": 0.1251134363488374,
+  "coordinate_system": {
+    "scales": {
+      "x": 0.01,
+      "y": 0.01,
+      "z": 0.01
+    },
+    "offsets": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0
+    }
+  },
+  "classification_analysis": {
+    "unique_classes": 4,
+    "breakdown": {
+      "1": 150970,
+      "7": 45,
+      "9": 720255,
+      "18": 714
+    }
+  },
+  "intensity_analysis": {
+    "min": 64,
+    "max": 22896,
+    "mean": 1041.593368685664,
+    "std": 708.4750153440866
+  },
+  "return_analysis": {
+    "max_return": 2,
+    "breakdown": {
+      "1": 871668,
+      "2": 316
+    }
+  },
+  "ml_features": {
+    "has_ground_points": false,
+    "has_buildings": false,
+    "has_vegetation": false,
+    "has_water": true,
+    "has_bridges": false,
+    "point_density_category": "low",
+    "classification_diversity": 4,
+    "return_complexity": 2
+  },
+  "processing_estimates": {
+    "estimated_processing_time_seconds": 8,
+    "memory_requirements_mb": 83,
+    "suitable_for_batch": true,
+    "priority_score": 0.3
+  },
+  "crs": null
+}
