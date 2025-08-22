@@ -30,7 +30,17 @@
 - **Zenodo**: https://zenodo.org/ (search "LiDAR survey complete")
 - **Figshare**: https://figshare.com/ (search "LiDAR GPS trajectory")
 
-### **2. 🇬🇧 UK Environment Agency**
+### **2. 🇫🇮 Finnish National Land Survey**
+
+**Finnish LiDAR Data:**
+- URL: https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en
+- License: Creative Commons Attribution 4.0 International
+- Cost: Free
+- Data: Aerial LiDAR point cloud data for certain regions
+- Advantage: Open data, well-documented, free access
+- Look for: LAS/LAZ files, survey documentation, metadata
+
+### **3. 🇬🇧 UK Environment Agency**
 
 **UK LiDAR Data:**
 - URL: https://environment.data.gov.uk/
@@ -121,7 +131,13 @@ Best regards,
 
 ### **Quick Sources to Try:**
 
-**1. Ask Around:**
+**1. Finnish National Land Survey (Immediate):**
+- Visit: https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en
+- Look for LiDAR/point cloud sections
+- Download sample LAS/LAZ files
+- Check for any survey documentation or metadata
+
+**2. Ask Around:**
 - Contact local survey companies: "Do you have any sample GPS/configuration files we could look at?"
 - University geography departments: "Any LiDAR survey files for research?"
 - Online forums: "Looking for sample GPS trajectory files for learning"
